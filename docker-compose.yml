@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  es2:
+    image: es2
+    build:
+      context: .
+      dockerfile: Dockerfile

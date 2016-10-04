@@ -1,5 +1,9 @@
 $icon-font-path: '../fonts/';
 
+$link-color:                 #f00; //red
+$link-hover-color:           #0f0; //green
+$link-hover-decoration: none;
+
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
@@ -15,7 +19,6 @@ body {
   padding: 30px;
 
 }
-
 
 .glyphicon.glyphicon-one-fine-dot:before {
     content: "\25cf";

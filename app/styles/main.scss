@@ -1,7 +1,7 @@
 $icon-font-path: '../fonts/';
 
-$link-color:                 #f00; //red
-$link-hover-color:           #0f0; //green
+$link-color:                 #000033;
+$link-hover-color:           #000033; 
 $link-hover-decoration: none;
 
 // bower:scss
@@ -25,5 +25,47 @@ body {
     font-size: 1em;
 }
 
+.text-green
+{
+    color: rgb(137, 144, 100);
+}
+.text-brown
+{
+	color: rgb(180, 172, 166);
+}  
+.text-pink
+{
+	color: rgb(228, 190, 195);
+}
+
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+/*
+ * Styles copied from the Grid example to make grid rows & columns visible.
+ */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+h4 {
+  margin-top: 25px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
 
 
